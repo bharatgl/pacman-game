@@ -1,7 +1,7 @@
 # pac-man
 Vanilla javaScript Game with HTML and CSS
 
-#game-view 
+# Game-view 
 ![image](https://user-images.githubusercontent.com/56772219/169224322-9fc295aa-8fa4-417e-af35-50a2c589209c.png)
 
 
