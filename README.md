@@ -9,7 +9,7 @@ Vanilla javaScript Game with HTML and CSS
 Packman ---> View [here](https://packman.netlify.app/) 
 
 # Game Instructions:
-use up down left right arrow keys respectively to move the pacman around the maze .
+use **up down left right** arrow keys respectively to move the pacman around the maze .
 
 ### Inbuilt JavaScript functions I have used: 
 * addEventListener()
