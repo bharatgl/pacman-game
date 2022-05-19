@@ -6,7 +6,7 @@ Vanilla javaScript Game with HTML and CSS
 
 
 ## Visit the game here 
-Packman ---> here(https://packman.netlify.app/)
+Packman ---> View [here](https://packman.netlify.app/) 
 
 ### Inbuilt JavaScript functions I have used: 
 * addEventListener()
