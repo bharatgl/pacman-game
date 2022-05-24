@@ -1,12 +1,5 @@
 body {
-  background-image: linear-gradient(
-    to right top,
-    #ececec,
-    #e4e9ef,
-    #d6e9eb,
-    #d0e7dd,
-    #dae2c9
-  );
+  background-color: white;
 }
 
 .grid {
@@ -14,6 +7,7 @@ body {
   flex-wrap: wrap;
   width: 560px;
   height: 560px;
+  /* border: solid black; */
 }
 
 .grid div {
@@ -30,7 +24,7 @@ body {
     #00bf72,
     #a8eb12
   );
-  border: 5px solid white;
+  border: 2px solid white;
   box-sizing: border-box;
 }
 
@@ -53,12 +47,12 @@ body {
 }
 .power-pellet {
   background-image: linear-gradient(
-    to left bottom,
-    #bb7b7b,
-    #cb9aa7,
-    #d7bccc,
-    #e6dee9,
-    #fefefe
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
   );
   border-radius: 50%;
 }
@@ -86,24 +80,27 @@ body {
 }
 
 .scared-ghost {
-  /* background-color: aquamarine; */
-  background-image: linear-gradient(
-    to bottom,
-    #2a3201,
-    #73573c,
-    #aa8785,
-    #d1c2ca,
-    #ffffff
-  );
+  background-color: aquamarine;
 }
 .score {
+  /* background-image: linear-gradient(
+    to right top,
+    #040608,
+    #0f0f1c,
+    #221125,
+    #390d21,
+    #490f0f
+  ); */
   color: black;
   font-size: x-large;
-  border: none;
+  font-weight: bolder;
+  font-style: italic;
+
+  /* border: none;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 10px;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 .score_manage {
   align-items: center;
