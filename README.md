@@ -2,7 +2,7 @@
 Vanilla javaScript Game with HTML and CSS
 
 # Game-view 
-![image](![image](https://user-images.githubusercontent.com/56772219/170132053-f95f03bf-5abc-4639-a0d8-df072c5f4aaf.png))
+![image](https://user-images.githubusercontent.com/56772219/170132196-62546a64-4b18-4c2c-95d2-0d88fd761192.png)
 
 
 # Visit the game here 
