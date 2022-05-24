@@ -80,7 +80,8 @@ body {
 }
 
 .scared-ghost {
-  background-color: aquamarine;
+  background-color: #845ec2;
+  border-radius: 50%;
 }
 .score {
   /* background-image: linear-gradient(
