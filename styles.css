@@ -89,13 +89,14 @@ body {
 }
 
 .pac-man {
-  background: yellow, url("/assets/web-");
+  background: yellow;
 
   border-radius: 10px;
 }
 
 .scared-ghost {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+  background-color: white;
 }
 .score {
   /* background-image: linear-gradient(
