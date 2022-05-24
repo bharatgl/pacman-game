@@ -1,18 +1,11 @@
 body {
   background-image: linear-gradient(
     to right top,
-    #003a5b,
-    #013c5e,
-    #023f61,
-    #034165,
-    #044468,
-    #295174,
-    #415f81,
-    #566d8d,
-    #808ba5,
-    #a6aabd,
-    #ccccd5,
-    #efefef
+    #ececec,
+    #e4e9ef,
+    #d6e9eb,
+    #d0e7dd,
+    #dae2c9
   );
 }
 
@@ -21,7 +14,6 @@ body {
   flex-wrap: wrap;
   width: 560px;
   height: 560px;
-  /* border: solid black; */
 }
 
 .grid div {
@@ -38,8 +30,7 @@ body {
     #00bf72,
     #a8eb12
   );
-  border: 5px solid
-    linear-gradient(to right top, #040608, #0f0f1c, #221125, #390d21, #490f0f);
+  border: 5px solid white;
   box-sizing: border-box;
 }
 
@@ -62,12 +53,12 @@ body {
 }
 .power-pellet {
   background-image: linear-gradient(
-    to right top,
-    #051937,
-    #004d7a,
-    #008793,
-    #00bf72,
-    #a8eb12
+    to left bottom,
+    #bb7b7b,
+    #cb9aa7,
+    #d7bccc,
+    #e6dee9,
+    #fefefe
   );
   border-radius: 50%;
 }
@@ -96,24 +87,23 @@ body {
 
 .scared-ghost {
   /* background-color: aquamarine; */
-  background-color: white;
+  background-image: linear-gradient(
+    to bottom,
+    #2a3201,
+    #73573c,
+    #aa8785,
+    #d1c2ca,
+    #ffffff
+  );
 }
 .score {
-  /* background-image: linear-gradient(
-    to right top,
-    #040608,
-    #0f0f1c,
-    #221125,
-    #390d21,
-    #490f0f
-  ); */
-  color: white;
+  color: black;
   font-size: x-large;
-  /* border: none;
+  border: none;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 10px;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
 }
 .score_manage {
   align-items: center;
