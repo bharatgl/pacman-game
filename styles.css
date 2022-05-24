@@ -1,9 +1,27 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #003a5b,
+    #013c5e,
+    #023f61,
+    #034165,
+    #044468,
+    #295174,
+    #415f81,
+    #566d8d,
+    #808ba5,
+    #a6aabd,
+    #ccccd5,
+    #efefef
+  );
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
   width: 560px;
   height: 560px;
-  border: solid black;
+  /* border: solid black; */
 }
 
 .grid div {
@@ -12,18 +30,46 @@
 }
 
 .pac-dot {
-  background-color: green;
-  border: 5px solid white;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  border: 5px solid
+    linear-gradient(to right top, #040608, #0f0f1c, #221125, #390d21, #490f0f);
   box-sizing: border-box;
 }
 
 .wall {
-  background-color: blue;
+  background-image: linear-gradient(
+    to left bottom,
+    #ffffff,
+    #d5cfd9,
+    #b39faf,
+    #957080,
+    #76444f,
+    #6a3437,
+    #5a261e,
+    #481a01,
+    #472300,
+    #432c00,
+    #3e3400,
+    #363c00
+  );
 }
-
 .power-pellet {
-  background-color: green;
-  border-radius: 10px;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  border-radius: 50%;
 }
 
 .blinky {
@@ -43,11 +89,35 @@
 }
 
 .pac-man {
-  background-color: yellow;
+  background: yellow, url("/assets/web-");
+
   border-radius: 10px;
 }
 
 .scared-ghost {
   background-color: aquamarine;
 }
+.score {
+  /* background-image: linear-gradient(
+    to right top,
+    #040608,
+    #0f0f1c,
+    #221125,
+    #390d21,
+    #490f0f
+  ); */
+  color: white;
+  font-size: x-large;
+  /* border: none;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  align-items: center;
+  justify-content: center; */
+}
+.score_manage {
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
 
+  display: flexbox;
+}
